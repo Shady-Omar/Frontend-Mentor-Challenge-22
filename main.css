@@ -1,0 +1,337 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(210, 60%, 98%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 5%) -6px 6px 24px;
+    width: 720px;
+    margin: 3rem 0;
+}
+
+.container .upper-text {
+    margin: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .upper-text h1 {
+    font-weight: 800;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(224, 21%, 14%);
+}
+
+.container .upper-text h1 span {
+    background-color: hsl(219, 85%, 26%);
+    font-size: 0.65em;
+    color: hsl(0, 0%, 100%);
+    padding: 4px 12px;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container .upper-text .read {
+    color: hsl(224, 21%, 14%);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container .upper-text .read:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.container .content {
+    margin: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .content img {
+    width: 3rem;
+    cursor: pointer;
+    margin: 15px;
+}
+
+
+.text-bar {
+    margin-top: 15px;
+}
+
+.container .content .notification {
+    font-size: 15px;
+    color: hsl(219, 12%, 42%);
+    position: relative;
+}
+
+.container .content .notification .dot-one {
+    position: absolute;
+    background-color: hsl(1, 90%, 64%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    right: -4%;
+    top: 35%;
+}
+
+.container .content .notification .dot-two {
+    position: absolute;
+    background-color: hsl(1, 90%, 64%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    right: -10%;
+    top: 35%;
+}
+
+.container .content .notification .dot-three {
+    position: absolute;
+    background-color: hsl(1, 90%, 64%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    right: -5%;
+    top: 35%;
+}
+
+.container .content .time {
+    font-size: 15px;
+    color: hsl(219, 14%, 63%);
+    margin-top: 5px;
+}
+
+.container .content .name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.container .content .name:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.container .content .post {
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container .content .post:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.container .content .group {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container .content .msg {
+    border-radius: 5px;
+    border: 1px solid rgb(147 157 174 / 50%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container .content .msg:hover {
+    background-color: hsl(205, 33%, 90%);
+    border: 1px solid hsl(205, 33%, 90%);
+}
+
+.container .content .msg p {
+    margin: 15px;
+    color: hsl(219, 12%, 42%);
+}
+
+.container .content .noti-one {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .content .noti-two {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .content .noti-three {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .content .noti-four {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .content .noti-five {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container .content .noti-five .chess {
+    position: absolute;
+    right: -15px;
+    width: 2.8rem;
+    cursor: pointer;
+}
+
+.container .content .noti-six {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .content .noti-seven {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    main {
+        max-width: 100%;
+        min-width:375px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0%;
+        margin: 0;
+    }
+
+    .container .upper-text {
+        margin: 1.2rem 0;
+        margin-bottom: 0;
+    }
+
+    .container .upper-text h1 {
+        margin-right: 40px;
+    }
+
+    .container .content {
+        margin: 1.2rem;
+    }
+
+    .container .content .notification .dot-one {
+        right: -8%;
+        top: 68%;
+    }
+
+    .container .content .notification .dot-two {
+        top: 40%;
+    }
+
+    .container .content .notification .dot-three {
+        right: -15%;
+        top: 68%;
+    }
+
+    .container .content .noti-one {
+        padding-right: 10px;
+    }
+    .container .content .noti-two {
+        padding-right: 10px;
+    }
+    .container .content .noti-three {
+        padding-right: 10px;
+    }
+    .container .content .noti-four {
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .container .content .msg p {
+        width: 95%;
+    }
+
+    .container .content .noti-five {
+        padding-right: 10px;
+        align-items: center;
+    }
+
+    .container .content .noti-five .chess {
+        right: -5px;
+        top: 15px;
+    }
+
+    .container .content .notification {
+        width: 77%;
+    }
+
+    .container .content .noti-six {
+        padding-right: 10px;
+    }
+    .container .content .noti-seven {
+        padding-right: 10px;
+    }
+}
